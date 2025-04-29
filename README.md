@@ -86,6 +86,26 @@ bastion_ip: '172.25.250.254'
 
 The local `synced/` directory is mounted to `/synced` inside the **workstation** VM for easy file sharing between macOS and the virtual environment.
 
+🧪 **Usage Note**  
+This folder is intended for scripts that will **check or automate practice test exercises**.  
+To run a script, log in as `student` on the workstation and execute it like this:
+
+```bash
+/home/student/<practice_folder_set>/<script_name>.sh
+```
+---
+
+## 📘 Study Materials
+
+All **RHCSA practice exam prompts** and **official Red Hat guides** will be placed in the `/study-guide` folder inside the workstation VM.
+
+You’ll find:
+- Practice exam exercises
+- Preparation labs
+- Red Hat official PDFs (where applicable)
+
+This will be your central hub for RHCSA exam preparation.
+
 ---
 
 ## 🚀 Getting Started

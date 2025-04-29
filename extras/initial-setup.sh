@@ -10,6 +10,7 @@ useradd student -G wheel
 echo "redhat" | passwd --stdin root
 echo "student" | passwd --stdin student
 
+
 # Cross installation packages
 dnf update -y
 dnf install -y vim-enhanced bash-completion
