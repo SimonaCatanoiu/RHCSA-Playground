@@ -1,1 +1,3 @@
 .vagrant/
+study-guide/books/*
+.DS_Store
